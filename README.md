@@ -1,5 +1,5 @@
 # Weather Data Ingestion from OpenWeatherMap API
-# An AWS data pipeline for ingesting the Weather data from the OpenWeatherMap into Redshift.
+# Data pipeline for ingesting the Weather data from the OpenWeatherMap REST API into AWS Redshift Data Warehouse.
 
 # Prerequisites
 * A good understanding of AWS Services: Git and Github basics, AWS Codebuild, S3, VPC, Airflow, Glue, MWAA, IAM and Redshift.
@@ -7,7 +7,7 @@
 * Knowledge of AWS security best practices, including IAM (Identity and Access Management) roles and policies.
 
 # Project Motivation
-### This project aims to leverage AWS serverless infrastructure to ingest the Weather data from OpenWeatherMap API into Redshift.
+### This project aims to leverage AWS serverless infrastructure to ingest the Weather data from OpenWeatherMap API into AWS Redshift Data Warehouse.
 
 # Architecture Diagram
 ![Architecture Diagram](./Architecture_Watermarked/Architecture_Diagram_Weather_Data_From_API_Ingestion.png?raw=true)
