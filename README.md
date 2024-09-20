@@ -68,48 +68,48 @@
     - Approve and merge the pull request to update the main branch with changes.
     ![Merge Pull Request](./Images_Watermarked/11%20Merge%20the%20pull%20request.png?raw=true)
 
-12. **Triggering CodeBuild with Merge**
-    - Trigger AWS CodeBuild automatically by merging changes to the main branch.
+12. **Automatic Triggering of CodeBuild with Merge**
+    - AWS CodeBuild will be automatically triggered by merging changes to the main branch.
     ![CodeBuild Triggered by Merge](./Images_Watermarked/12%20Codebuild%20triggered%20by%20the%20merge.png?raw=true)
 
-13. **Viewing CodeBuild Execution Logs**
-    - Monitor the execution logs of AWS CodeBuild to track the deployment steps.
+13. **Monitor CodeBuild Execution Logs**
+    - Monitor the execution logs of AWS CodeBuild to track the deployment steps and verify that everything is running smoothly.
     ![CodeBuild Execution Logs](./Images_Watermarked/13%20Codebuild%20logs%20of%20the%20steps%20that%20are%20getting%20executed.png?raw=true)
 
-14. **CodeBuild Success**
+14. **CodeBuild Run Successful**
     - Confirm the successful completion of the AWS CodeBuild process.
     ![CodeBuild Succeeded](./Images_Watermarked/14%20Codebuild%20Succeded.png?raw=true)
 
 15. **Glue Script Deployment to S3**
-    - AWS Glue scripts successfully deployed to the designated S3 bucket by codebuild.
+    - AWS Glue scripts successfully copied to the designated S3 bucket by codebuild.
     ![Glue Script in S3](./Images_Watermarked/15%20Glue%20Script%20landed%20in%20the%20s3%20bucket.png?raw=true)
 
 16. **Airflow DAG Deployment to S3**
-    - Airflow DAGs successfully placed in the DAGs folder of the S3 bucket for workflow management.
+    - Airflow DAGs successfully copied to the DAGs folder of the S3 bucket for workflow management.
     ![Airflow DAGs in S3](./Images_Watermarked/16%20Airflow%20DAGs%20landed%20in%20the%20DAGs%20folder%20of%20the%20s3%20bucket.png?raw=true)
 
 17. **Deployment of requirements.txt to S3**
-    - The `requirements.txt` file for the project successfully landed in the S3 bucket.
+    - The `requirements.txt` file for the project successfully copied to the S3 bucket.
     ![requirements.txt in S3](./Images_Watermarked/17%20requirements.txt%20file%20landed%20as%20well.png?raw=true)
 
-18. **Adding API Key to Airflow Variables**
-    - Integration of the Open Weather Map API key into the Airflow environment for secure API calls.
+18. **Add the Weather API Key to Airflow Variables**
+    - Add the Open Weather Map API key into the Airflow environment for secure API calls from the Airflow DAGs.
     ![API Key in Airflow Variables](./Images_Watermarked/18%20Add%20the%20API%20key%20of%20open%20weather%20map%20into%20the%20Airflow%20Variables.png?raw=true)
 
 19. **Airflow UI Displaying DAGs**
-    - Visualization of the newly added DAGs in the Airflow user interface, confirming their availability for execution.
+    - Wait for 2 to 5 minutes for the DAGs to show up on the Airflow UI.
     ![Airflow UI DAGs Display](./Images_Watermarked/19%20The%20dags%20that%20we%20have%20added%20to%20the%20dags%20folder%20visible%20in%20the%20Airflow%20UI.png?raw=true)
 
 20. **Triggering the DAG**
-    - Manually triggering the DAG for immediate execution, with an option to schedule daily runs.
+    - Trigger the DAG for immediate execution, with an option to schedule daily runs.
     ![Trigger DAG](./Images_Watermarked/20%20Triggering%20the%20dag.%20We%20can%20also%20schedule%20it%20if%20we%20want.%20Currently%20this%20runs%20on%20schedule%20only%20once%20a%20day%20so%20we%20will%20trigger%20it%20now.png?raw=true)
 
-21. **Successful Data Fetch and Store in S3**
-    - Confirmation of successful data retrieval and storage in S3, executed by the triggered DAG.
+21. **Successful Data Fetch and Data Store in S3**
+    - Confirmation of successful DAG run by the triggered DAG.
     ![Fetch and Store Success](./Images_Watermarked/21%20Fetching%20and%20Storing%20in%20S3%20successful.png?raw=true)
 
-22. **Second DAG Trigger and Success**
-    - The second DAG also triggered successfully and completed its intended tasks.
+22. **Transform DAG Trigger and Success**
+    - The transform DAG also triggered successfully and completed its intended tasks.
     ![Second DAG Success](./Images_Watermarked/22%20Second%20DAG%20also%20triggered%20and%20succeded.png?raw=true)
 
 23. **Glue Job Trigger and Success**
@@ -119,6 +119,8 @@
 24. **Data Ingested into Redshift Table**
     - Data successfully ingested into the AWS Redshift table, ready for analysis and reporting.
     ![Data Ingestion into Redshift](./Images_Watermarked/23%20Data%20Ingested%20into%20the%20Redshift%20Table.png?raw=true)
+25. **Clean Up**
+    - Clean up all the resources created in the above steps to avoid any potential charges in your AWS billing.
 
 
 # Potential Next Steps
