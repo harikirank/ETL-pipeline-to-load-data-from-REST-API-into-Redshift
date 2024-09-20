@@ -10,7 +10,7 @@
 ### This project aims to leverage AWS serverless infrastructure to ingest the Weather data from OpenWeatherMap API into AWS Redshift Data Warehouse.
 
 # Architecture Diagram
-![Architecture Diagram](./Architecture_Watermarked/Architecture_Diagram_Weather_Data_From_API_Ingestion.png?raw=true)
+![Architecture Diagram](./Architecture_Watermarked/ETL-pipeline-to-load-data-from-REST-API-into-Redshift.png?raw=true)
 
 # Architecture Diagram Steps
 1. **GitHub Code Repository**: The source code, configurations, and scripts are stored in a GitHub repository.
